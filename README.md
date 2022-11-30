@@ -1,5 +1,5 @@
 # NodeJS PDF Converter
-![image](https://user-images.githubusercontent.com/93920465/204772096-170a1098-2ce2-4800-9bb8-905ebfec4454.png)>
+![image](https://user-images.githubusercontent.com/93920465/204772096-170a1098-2ce2-4800-9bb8-905ebfec4454.png)
 
 Convert from MS Office, images to PDF, get thumbnails for file previews, optimize files for quick rendering.
 
