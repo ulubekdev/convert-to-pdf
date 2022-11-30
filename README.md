@@ -1,4 +1,4 @@
-# nodejs-convert-file-server
+# NodeJS PDF Converter
 ![Screenshot](https://github.com/andreysaf/nodejs-convert-file-server/blob/master/files/screen.png?raw=true "Screenshot")
 
 Convert from MS Office, images to PDF, get thumbnails for file previews, optimize files for quick rendering.
