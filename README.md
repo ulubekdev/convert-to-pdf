@@ -1,5 +1,5 @@
 # NodeJS PDF Converter
- <img src="[https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.section.io%2Fengineering-education%2Fhistory-of-nodejs%2F&psig=AOvVaw2EscWbyQmM7dxashg6IJzF&ust=1669890255255000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjj143Y1fsCFQAAAAAdAAAAABAJ](https://www.section.io/engineering-education/history-of-nodejs/nodejs-use-cases-cover-image.png)"> 
+[https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.section.io%2Fengineering-education%2Fhistory-of-nodejs%2F&psig=AOvVaw2EscWbyQmM7dxashg6IJzF&ust=1669890255255000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPjj143Y1fsCFQAAAAAdAAAAABAJ](https://www.section.io/engineering-education/history-of-nodejs/nodejs-use-cases-cover-image.png)
 
 Convert from MS Office, images to PDF, get thumbnails for file previews, optimize files for quick rendering.
 
