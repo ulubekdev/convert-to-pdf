@@ -3,15 +3,6 @@
 
 Convert from MS Office, images to PDF, get thumbnails for file previews, optimize files for quick rendering.
 
-Built with:
-- Node.js
-- Express.js
-- PDFTron Node.js SDK
-
-I put together a [get started blog](https://www.pdftron.com/blog/nodejs/generate-pdf-convert-docx-to-pdf-with-nodejs/) to walk through this project. 
-
-And you can follow this [step-by-step video](https://www.youtube.com/playlist?list=PLNFJTxRwzLgkCG0BT_DG8cmCfLkA-I5i6) to recreate it yourself.
-
 ## Installation
 
 Clone the repo and run:
@@ -42,13 +33,6 @@ The endpoint returns the requested file.
 ##### HTTP Request
 `GET http://localhost:9000/files/:filename`
 
-### Get thumbnail
-
-The endpoint returns the thumbnail for the specified file. Uses [PDFTron Node.js API](https://www.pdftron.com/documentation/samples/node/js/PDFDrawTest?platforms=nodejs).
-
-##### HTTP Request
-`GET http://localhost:9000/thumbnail/:filename`
-
 ### Convert to PDF
 
 The endpoint converts the file to a PDF. Conversion is possible for the following file formats: DOC, DOCX, PPTX, PPT, XLSX, PNG, JPEG, JPG, TIFF, TXT. Uses [PDFTron Node.js API](https://www.pdftron.com/documentation/samples/node/js/ConvertTest?platforms=nodejs).
@@ -67,48 +51,6 @@ The endpoint converts the HTML to a PDF. There are several settings available to
 Converts an HTML form to a PDF
 `http://localhost:9000/convertHTML/myhtml-index.html`
 
-### Optimize PDF
-
-The endpoint converts the PDF to an optimized PDF to be used with [PDFTron WebViewer](https://www.pdftron.com/webviewer/demo/). Uses [PDFTron Node.js API](https://www.pdftron.com/api/pdfnet-node/PDFNet.PDFDoc.html#saveViewerOptimized__anchor).
-
-##### HTTP Request
-`GET http://localhost:9000/optimize/:filename`
-
-### Extract Text from a PDF
-
-Returns text from a PDF at a specified page number.
-
-##### HTTP Request
-`GET http://localhost:9000/textextract/:filename-:pagenumber`
-
-### Generate PDF
-
-Creates a blank PDF with a single page.
-
-##### HTTP Request
-`GET http://localhost:9000/generate/:filename`
-
-### Replace Content in PDF
-
-Replaces a placeholder string in a PDF.
-
-##### HTTP Request
-`GET http://localhost:9000/replaceContent/:name`
-
-##### Example
-Replaces placeholder strings in the template PDF letter with provided name and returns a ready to be sent file. The `_` replaced with spaces.
-`http://localhost:9000/replaceContent/John_Smith`
-
-### Watermark PDF
-
-Watermarks a PDF document with the provided watermark.
-
-##### HTTP Request
-`GET http://localhost:9000/watermark/:filename-:watermark`
-
-##### Example
-Places a watermark on every page in red. 
-`http://localhost:9000/watermark/webviewer.pdf-awesome`
 
 
 
