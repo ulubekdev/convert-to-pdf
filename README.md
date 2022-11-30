@@ -40,19 +40,6 @@ The endpoint converts the file to a PDF. Conversion is possible for the followin
 ##### HTTP Request
 `GET http://localhost:9000/convert/:filename`
 
-### Convert to PDF from HTML
-
-The endpoint converts the HTML to a PDF. There are several settings available to get the best results. Uses [PDFTron Node.js API for HTML2PDF](https://www.pdftron.com/documentation/samples/node/js/HTML2PDFTest?platforms=nodejs).
-
-##### HTTP Request
-`GET http://localhost:9000/convertHTML/:filename-:pathToHTML`
-
-##### Example
-Converts an HTML form to a PDF
-`http://localhost:9000/convertHTML/myhtml-index.html`
-
-
-
 
 
 
